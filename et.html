@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Electronics & Telecommunication Department</title>
     <style>
+      html{width: 100%;height: 100%;}
         body{margin: 0px;  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;}
         .main7{display: flex;justify-content: center;align-items: top;  background-color: #ffffff;
             color: #333;
@@ -22,7 +23,7 @@
         margin: 0px;}
         .achivment{position: absolute;left: 20px;top: 100px;display: flex;flex-direction: column;width: 400px;align-items: center;text-align: center;background-color: azure;box-shadow: 0px 0px 0.6px 1.5px rgba(0,0,0,0.3);}
         .about-contain{padding-top: 50px;}
-        .about{width: 800px;font-size: 15px;}
+        .about{max-width: 800px;font-size: 15px;flex: 1;}
         .now{display: flex;flex-direction: column;align-items: center;}
         .everything{margin-left: 200px;box-shadow: 0px 0px 0.4px 1.5px rgba(0,0,0,0.3);margin-top: 5px;}
         .run{text-align: center;background: linear-gradient(135deg, #2c3e50 0%, #3498db 100%);}
@@ -51,7 +52,10 @@
         .div1:hover{width: 220px; height: 220px;}
          .div2:hover{width: 320px; height: 320px;}
          .div3:hover{width: 220px; height: 220px;}
-        
+        @media screen and (max-width:500px){.div3,.div1{display: none;}.achivment{position: static;}.everything{margin-left: 0px;}
+        .sub-head{text-align: center;}
+          
+        }
         
     </style>
 </head>
@@ -61,7 +65,25 @@
         <p class="sub-head">Connecting the World Through Electronics & Communication</p>
     </header>
     <main class="main7">
-        <div class="achivment"><h2>Achievements</h2>
+ 
+        <div class="everything">
+            <h2 class="run">About ET (Electronics & Telecommunication)</h2>
+            <div class="now">
+            <div class="contain-img"><img class="img7" src="real/HealthInformationServices-LP.webp" alt="ET Department"></div>
+            <div class="about-contain">
+                <p class="about">The ET Department focuses on the study of electronic devices, circuits, communication equipment, and systems. It provides students with strong foundations in analog and digital electronics, microprocessors, communication systems, signal processing, and emerging technologies like IoT, VLSI, and Wireless Communication. The department emphasizes innovation, research, and practical skills, preparing students for careers as electronics engineers, communication specialists, VLSI designers, and hardware innovators.</p>
+                </div>
+              
+            </div>
+              <p style="max-width: 800px;">The Electronics and Telecommunication (ET) Department is dedicated to the study and advancement of electronic and communication technologies. It provides a strong foundation in both theoretical and practical aspects of electronics engineering, preparing students to tackle complex real-world problems. The curriculum covers a wide range of topics including electronic circuits, digital signal processing, microprocessors, communication systems, electromagnetic theory, VLSI design, embedded systems, and wireless communication.
+
+The department emphasizes hands-on learning and innovation through state-of-the-art laboratories, projects, design competitions, and research initiatives. Students are encouraged to explore emerging technologies such as Internet of Things (IoT), 5G technology, robotics, and advanced signal processing, fostering an environment of creativity and critical thinking.
+
+With strong collaborations with leading electronics and communication companies, the ET department ensures that students gain practical exposure through internships, workshops, and industry projects. Graduates are well-prepared for careers as electronics engineers, communication specialists, VLSI designers, embedded system developers, network engineers, and entrepreneurs in the electronics industry.
+
+The department also takes pride in its research and development activities, with faculty and students regularly publishing papers in reputed journals, filing patents, and participating in national and international conferences. Its commitment to academic excellence, innovation, and industry readiness makes the ET Department a hub for nurturing future leaders and innovators in the field of electronics and communication.</p>
+        </div>
+               <div class="achivment"><h2>Achievements</h2>
        <ul>
   <li><strong>Academic Excellence:</strong>
     <ul>
@@ -95,23 +117,6 @@
 </ul>
 
     </div>
-        <div class="everything">
-            <h2 class="run">About ET (Electronics & Telecommunication)</h2>
-            <div class="now">
-            <div class="contain-img"><img class="img7" src="real/HealthInformationServices-LP.webp" alt="ET Department"></div>
-            <div class="about-contain">
-                <p class="about">The ET Department focuses on the study of electronic devices, circuits, communication equipment, and systems. It provides students with strong foundations in analog and digital electronics, microprocessors, communication systems, signal processing, and emerging technologies like IoT, VLSI, and Wireless Communication. The department emphasizes innovation, research, and practical skills, preparing students for careers as electronics engineers, communication specialists, VLSI designers, and hardware innovators.</p>
-                </div>
-              
-            </div>
-              <p style="width: 800px;">The Electronics and Telecommunication (ET) Department is dedicated to the study and advancement of electronic and communication technologies. It provides a strong foundation in both theoretical and practical aspects of electronics engineering, preparing students to tackle complex real-world problems. The curriculum covers a wide range of topics including electronic circuits, digital signal processing, microprocessors, communication systems, electromagnetic theory, VLSI design, embedded systems, and wireless communication.
-
-The department emphasizes hands-on learning and innovation through state-of-the-art laboratories, projects, design competitions, and research initiatives. Students are encouraged to explore emerging technologies such as Internet of Things (IoT), 5G technology, robotics, and advanced signal processing, fostering an environment of creativity and critical thinking.
-
-With strong collaborations with leading electronics and communication companies, the ET department ensures that students gain practical exposure through internships, workshops, and industry projects. Graduates are well-prepared for careers as electronics engineers, communication specialists, VLSI designers, embedded system developers, network engineers, and entrepreneurs in the electronics industry.
-
-The department also takes pride in its research and development activities, with faculty and students regularly publishing papers in reputed journals, filing patents, and participating in national and international conferences. Its commitment to academic excellence, innovation, and industry readiness makes the ET Department a hub for nurturing future leaders and innovators in the field of electronics and communication.</p>
-        </div>
         <h2>Specializations in ET</h2>
  <div class="experiment">
     <div class="div1 h b">1</div>
